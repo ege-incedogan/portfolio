@@ -7,7 +7,6 @@ const Home = () => {
     <SimpleGrid
       justifyItems={"center"}
       marginTop={5}
-      marginLeft={10}
       gap={5}
       columns={1}
     >

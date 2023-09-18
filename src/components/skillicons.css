@@ -5,3 +5,18 @@
 .skillicon {
     transition: 150ms linear
 }
+
+
+@media (max-width: 680px) {
+    .skillgrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 681px) {
+    .skillgrid {
+        display: flex;
+        gap: 20px;
+    }
+}

@@ -1,4 +1,10 @@
-import { HStack, Image, SimpleGrid, Text, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Image,
+  SimpleGrid,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 import pythonIcon from "../assets/python.png";
 import htmlIcon from "../assets/htmlicon.png";
 import jsIcon from "../assets/JSicon.png";
@@ -10,9 +16,9 @@ import "./skillicons.css";
 
 const Skills = () => {
   return (
-    <SimpleGrid>
+    <>
       <Text fontSize={"2xl"}> Skills</Text>
-      <HStack>
+      <Box className="skillgrid">
         <VStack>
           <Image className="skillicon" height="50px" src={pythonIcon} />
           <Text>Python</Text>
@@ -26,23 +32,23 @@ const Skills = () => {
           <Text>MySQL</Text>
         </VStack>
         <VStack>
-          <Image className="skillicon" height="60px" src={mongoIcon} />
+          <Image className="skillicon" height="50px" src={mongoIcon} />
           <Text>MongoDB</Text>
         </VStack>
         <VStack>
-          <Image className="skillicon" height="60px" src={reactIcon} />
+          <Image className="skillicon" height="50px" src={reactIcon} />
           <Text>React</Text>
         </VStack>
         <VStack>
-          <Image className="skillicon" height="65px" src={htmlIcon} />
+          <Image className="skillicon" height="50px" src={htmlIcon} />
           <Text>HTML</Text>
         </VStack>
         <VStack>
-          <Image className="skillicon" height="65px" src={cssIcon} />
+          <Image className="skillicon" height="50px" src={cssIcon} />
           <Text>CSS</Text>
         </VStack>
-      </HStack>
-    </SimpleGrid>
+        </Box>
+    </>
   );
 };
 
