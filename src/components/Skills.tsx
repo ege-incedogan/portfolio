@@ -1,7 +1,6 @@
 import {
   Box,
   Image,
-  SimpleGrid,
   Text,
   VStack,
 } from "@chakra-ui/react";
