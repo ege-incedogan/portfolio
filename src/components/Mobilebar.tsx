@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 const Mobilebar = () => {
   return (
     <Box>
-      <HStack justifyContent={"space-around"}>
+      <HStack justifyContent={"space-between"}>
         <Text color={"purple.500"} fontSize={"3xl"}>
           {"<Ege />"}
         </Text>
