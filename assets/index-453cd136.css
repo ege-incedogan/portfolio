@@ -1,1 +1,0 @@
-.skillicon:hover{transform:scale(1.2)}.skillicon{transition:.15s linear}@media (max-width: 680px){.skillgrid{display:grid;grid-template-columns:repeat(4,1fr)}}@media (min-width: 681px){.skillgrid{display:flex;gap:20px}}@media (max-width: 680px){.Navbar{display:none}}@media (min-width: 681px){.Mobilebar{display:none}}body{padding:10px;margin:3px}
