@@ -1,0 +1,11 @@
+@media (max-width: 680px) {
+    .Navbar {
+        display: none;
+    }
+}
+
+@media (min-width: 681px) {
+    .Mobilebar {
+        display:none;
+    }
+}

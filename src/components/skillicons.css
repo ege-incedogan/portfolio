@@ -1,0 +1,7 @@
+.skillicon:hover {
+    transform: scale(1.2);
+}
+
+.skillicon {
+    transition: 150ms linear
+}
