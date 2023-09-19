@@ -8,7 +8,6 @@ const AnimatedAbout = () => {
       className="animatedtext"
       paddingTop={10}
       minHeight={"380px"}
-      
       maxWidth={"600px"}
     >
       <TypeAnimation

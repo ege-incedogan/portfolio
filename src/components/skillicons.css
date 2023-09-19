@@ -33,3 +33,9 @@
         width: 600px;
     }
 }
+
+@media (max-width: 599px) {
+    .animatedtext {
+        justify-self: left;
+    }
+}
