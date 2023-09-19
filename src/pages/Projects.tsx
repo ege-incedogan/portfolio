@@ -10,7 +10,6 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import "./projects.css";
 import gamebrowserimg from "../assets/gamebrowser.png";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
