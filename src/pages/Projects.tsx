@@ -10,8 +10,8 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import "./projects.css";
 import gamebrowserimg from "../assets/gamebrowser.png";
-
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const projects = [
@@ -39,7 +39,7 @@ const Projects = () => {
             <Text fontSize={"2xl"}>{p.name}</Text>
           </CardHeader>
           <CardBody paddingTop={0}>
-            <Image width={"640px"} height={"250px"} src={p.img} />
+            <Image className="projectimg" src={p.img} />
             <Text paddingTop={3}>{p.describtion}</Text>
           </CardBody>
           <CardFooter paddingTop={0} alignSelf={"center"}>
