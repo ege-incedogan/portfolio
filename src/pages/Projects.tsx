@@ -11,6 +11,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import gamebrowserimg from "../assets/gamebrowser.png";
+import carshopimg from "../assets/carshop.png";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const projects = [
@@ -22,6 +23,14 @@ const projects = [
     github: "https://github.com/Blindo97/gamebrowser",
     describtion:
       "Small project that I made using rawg.io API, vite, react and other front end elements",
+  },
+  {
+    id: 2,
+    name: "carshop",
+    img: carshopimg,
+    site: "https://blindo97.github.io/carshop/",
+    github: "https://github.com/Blindo97/carshop",
+    describtion: "/",
   },
 ];
 
