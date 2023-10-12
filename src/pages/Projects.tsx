@@ -12,26 +12,34 @@ import {
 } from "@chakra-ui/react";
 import gamebrowserimg from "../assets/gamebrowser.png";
 import carshopimg from "../assets/carshop.png";
+import browsergameimg from "../assets/browsergame.png"
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const projects = [
   {
     id: 1,
-    name: "gamebrowser",
+    name: "game-browser",
     img: gamebrowserimg,
     site: "https://blindo97.github.io/gamebrowser/",
     github: "https://github.com/Blindo97/gamebrowser",
     describtion:
-      "Small project that I made using rawg.io API, vite, react and other front end elements",
+      "Small project that I made using rawg.io API, vite, react and other front-end elements",
   },
   {
     id: 2,
-    name: "carshop",
+    name: "car-shop",
     img: carshopimg,
     site: "https://blindo97.github.io/carshop/",
     github: "https://github.com/Blindo97/carshop",
-    describtion: "/",
+    describtion: "Small project made using React, and other front-end elements to show filtering options",
   },
+  {id: 3,
+  name: "browser-game",
+  img: browsergameimg,
+  site: "https://blindo97.github.io/jsbrowsergame/",
+  github: "https://github.com/Blindo97/jsbrowsergame",
+  describtion: "Clicker kinda browser game made by using only raw HTML,CSS and JS"
+}
 ];
 
 const Projects = () => {
