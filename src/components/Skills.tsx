@@ -1,9 +1,4 @@
-import {
-  Box,
-  Image,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Image, Text, VStack } from "@chakra-ui/react";
 import pythonIcon from "../assets/python.png";
 import htmlIcon from "../assets/htmlicon.png";
 import jsIcon from "../assets/JSicon.png";
@@ -11,6 +6,7 @@ import cssIcon from "../assets/cssicon.png";
 import sqlIcon from "../assets/database.png";
 import mongoIcon from "../assets/mongodb.png";
 import reactIcon from "../assets/react.png";
+import astroIcon from "../assets/astro.png";
 import "./skillicons.css";
 
 const Skills = () => {
@@ -39,6 +35,10 @@ const Skills = () => {
           <Text>React</Text>
         </VStack>
         <VStack>
+          <Image className="skillicon" height="50px" src={astroIcon} />
+          <Text>Astro</Text>
+        </VStack>
+        <VStack>
           <Image className="skillicon" height="50px" src={htmlIcon} />
           <Text>HTML</Text>
         </VStack>
@@ -46,7 +46,7 @@ const Skills = () => {
           <Image className="skillicon" height="50px" src={cssIcon} />
           <Text>CSS</Text>
         </VStack>
-        </Box>
+      </Box>
     </>
   );
 };
