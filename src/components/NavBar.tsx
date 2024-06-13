@@ -45,14 +45,28 @@ const NavBar = () => {
           <Menu>
             <MenuButton className="navLinks">Contact Me</MenuButton>
             <MenuList paddingLeft={3} paddingRight={3}>
-              <HStack gap={3}>
-                <Image height={"20px"} src={phoneIcon} />
-                <Text>+90 507-314-5864</Text>
-              </HStack>
-              <HStack marginTop={2} gap={3}>
-                <Image height={"20px"} src={emailIcon} />
-                <Text>ege1912ksk@gmail.com</Text>
-              </HStack>
+              <a href="tel:+905073145864">
+                <HStack gap={3} cursor="pointer">
+                  <Image height={"20px"} src={phoneIcon} alt="Phone Icon" />
+                  <Text>+90 507-314-5864</Text>
+                </HStack>
+              </a>
+              <a
+                href="https://web.whatsapp.com/send?phone=905073145864"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <HStack marginTop={2} gap={3} cursor="pointer">
+                  <Image height={"20px"} src={phoneIcon} alt="WhatsApp Icon" />
+                  <Text>WhatsApp</Text>
+                </HStack>
+              </a>
+              <a href="mailto:ege1912ksk@gmail.com">
+                <HStack marginTop={2} gap={3} cursor="pointer">
+                  <Image height={"20px"} src={emailIcon} alt="Email Icon" />
+                  <Text>ege1912ksk@gmail.com</Text>
+                </HStack>
+              </a>
             </MenuList>
           </Menu>
         </HStack>

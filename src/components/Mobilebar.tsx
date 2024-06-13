@@ -50,12 +50,21 @@ const Mobilebar = () => {
               </Link>
               <MenuDivider />
               <Text paddingLeft={3}>Contact Me</Text>
-              <Text paddingLeft={3} paddingTop={3}>
-                +90 507 314-5864
-              </Text>
-              <Text paddingLeft={3} paddingTop={3}>
-                ege1912ksk@gmail.com
-              </Text>
+              <a href="tel:+905073145864">
+                <Text paddingLeft={3} paddingTop={3}>
+                  +90 507 314-5864
+                </Text>
+              </a>
+              <a href="https://wa.me/905073145864">
+                <Text paddingLeft={3} paddingTop={3}>
+                  WhatsApp
+                </Text>
+              </a>
+              <a href="mailto:ege1912ksk@gmail.com">
+                <Text paddingLeft={3} paddingTop={3}>
+                  ege1912ksk@gmail.com
+                </Text>
+              </a>
             </MenuList>
           </Menu>
         </Box>
