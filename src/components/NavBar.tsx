@@ -1,4 +1,5 @@
 import {
+  Box,
   HStack,
   Image,
   Menu,
@@ -15,21 +16,34 @@ const NavBar = () => {
     <>
       <HStack justifyContent="space-between">
         <HStack>
-          <Link to="/">
-            <Text color={"purple.500"} fontSize={"3xl"}>
-              {"<Ege_incedogan />"}
-            </Text>
-          </Link>
+          <Box
+            border="solid 0.2vh white"
+            paddingRight="1vh"
+            paddingLeft="1vh"
+            borderRadius="1vh"
+          >
+            <Link to="/">
+              <Text className="nameClass" fontSize={"3xl"}>
+                {"EGE INCEDOGAN"}
+              </Text>
+            </Link>
+          </Box>
         </HStack>
         <HStack fontSize={"xl"} gap={3} paddingRight={2}>
-          <Link to="/">Home</Link>
+          <Link className="navLinks" to="/">
+            Home
+          </Link>
           <p>|</p>
-          <Link to="resume">Resume</Link>
+          <Link className="navLinks" to="resume">
+            Resume
+          </Link>
           <p>|</p>
-          <Link to="projects">Projects</Link>
+          <Link className="navLinks" to="projects">
+            Projects
+          </Link>
           <p>|</p>
           <Menu>
-            <MenuButton>Contact Me</MenuButton>
+            <MenuButton className="navLinks">Contact Me</MenuButton>
             <MenuList paddingLeft={3} paddingRight={3}>
               <HStack gap={3}>
                 <Image height={"20px"} src={phoneIcon} />

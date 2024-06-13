@@ -17,9 +17,18 @@ const Mobilebar = () => {
   return (
     <Box>
       <HStack justifyContent={"space-between"}>
-        <Text color={"purple.500"} fontSize={"3xl"}>
-          {"<Ege />"}
-        </Text>
+        <Box
+          border="solid 0.2vh white"
+          paddingRight="1vh"
+          paddingLeft="1vh"
+          borderRadius="1vh"
+        >
+          <Link to="/">
+            <Text className="nameClass" fontSize={"3xl"}>
+              {"EGE"}
+            </Text>
+          </Link>
+        </Box>
         <Box>
           <Menu>
             <MenuButton

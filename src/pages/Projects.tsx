@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import gamebrowserimg from "../assets/gamebrowser.png";
 import carshopimg from "../assets/carshop.png";
-import browsergameimg from "../assets/browsergame.png"
+import browsergameimg from "../assets/browsergame.png";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const projects = [
@@ -20,8 +20,8 @@ const projects = [
     id: 1,
     name: "game-browser",
     img: gamebrowserimg,
-    site: "https://blindo97.github.io/gamebrowser/",
-    github: "https://github.com/Blindo97/gamebrowser",
+    site: "https://ege-incedogan.github.io/gamebrowser/",
+    github: "https://github.com/ege-incedogan/gamebrowser",
     describtion:
       "Small project that I made using rawg.io API, vite, react and other front-end elements",
   },
@@ -29,17 +29,20 @@ const projects = [
     id: 2,
     name: "car-shop",
     img: carshopimg,
-    site: "https://blindo97.github.io/carshop/",
-    github: "https://github.com/Blindo97/carshop",
-    describtion: "Small project made using React, and other front-end elements to show filtering options",
+    site: "https://ege-incedogan.github.io/carshop/",
+    github: "https://github.com/ege-incedogan/carshop",
+    describtion:
+      "Small project made using React, and other front-end elements to show filtering options",
   },
-  {id: 3,
-  name: "browser-game",
-  img: browsergameimg,
-  site: "https://blindo97.github.io/jsbrowsergame/",
-  github: "https://github.com/Blindo97/jsbrowsergame",
-  describtion: "Clicker kinda browser game made by using only raw HTML,CSS and JS"
-}
+  {
+    id: 3,
+    name: "browser-game",
+    img: browsergameimg,
+    site: "https://ege-incedogan.github.io/jsbrowsergame/",
+    github: "https://github.com/ege-incedogan/jsbrowsergame",
+    describtion:
+      "Clicker kinda browser game made by using only raw HTML,CSS and JS",
+  },
 ];
 
 const Projects = () => {

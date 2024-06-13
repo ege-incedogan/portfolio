@@ -1,23 +1,29 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid, useBreakpointValue } from "@chakra-ui/react";
+import TextAboutMe from "../components/TextAboutMe";
+import Goal from "../components/Goal";
 import Skills from "../components/Skills";
-import AnimatedAbout from "../components/AnimatedAbout";
 
-const Home = () => {
+const TestPage = () => {
+  const columns = useBreakpointValue({ base: 1, lg: 2 });
+
   return (
     <SimpleGrid
       justifyItems={"center"}
-      marginTop={5}
-      gap={5}
-      columns={1}
+      marginTop={10}
+      columns={columns}
+      spacing={10}
     >
-      <Box maxW={"600px"}>
-        <AnimatedAbout />
+      <Box maxW={"600px"} width={"100%"}>
+        <TextAboutMe />
       </Box>
-      <Box minWidth={"max"}>
+      <Box maxW={"600px"} width={"100%"}>
         <Skills />
+      </Box>
+      <Box maxW={"600px"} width={"100%"}>
+        <Goal />
       </Box>
     </SimpleGrid>
   );
 };
 
-export default Home;
+export default TestPage;

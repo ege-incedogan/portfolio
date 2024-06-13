@@ -1,10 +1,17 @@
-.skillicon:hover {
+.skillicon:hover, .navLinks:hover {
     transform: scale(1.2);
 }
 
-.skillicon {
-    transition: 150ms linear
+.skillicon, .navLinks {
+    transition: 100ms linear
 }
+
+.nameClass {
+    font-family: "Rubik Lines", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 @media (max-width: 680px) {
