@@ -23,7 +23,7 @@ const projects = [
     site: "https://ege-incedogan.github.io/gamebrowser/",
     github: "https://github.com/ege-incedogan/gamebrowser",
     describtion:
-      "Small project that I made using rawg.io API, vite, react and other front-end elements",
+      "Project that I made using rawg.io API, vite, react and other front-end elements",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const projects = [
     site: "https://ege-incedogan.github.io/carshop/",
     github: "https://github.com/ege-incedogan/carshop",
     describtion:
-      "Small project made using React, and other front-end elements to show filtering options",
+      "Project that I made using React, and other front-end elements to show filtering options",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const projects = [
     site: "https://ege-incedogan.github.io/jsbrowsergame/",
     github: "https://github.com/ege-incedogan/jsbrowsergame",
     describtion:
-      "Clicker kinda browser game made by using only raw HTML,CSS and JS",
+      "Clicker type browser game made by using only HTML,CSS and JS",
   },
 ];
 
